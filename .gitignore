@@ -1,18 +1,29 @@
-# Node / React
+
+# Node.js / React / Vite
 Frontend/node_modules/
 Frontend/dist/
+Frontend/build/
 Frontend/.env
-Frontend/.env.local
+Frontend/.env.*
+!Frontend/.env.example
 
 # Python / FastAPI
 Backend/__pycache__/
+Backend/*.py[cod]
 Backend/edunexenv/
 Backend/venv/
 Backend/env/
 Backend/.env
-*.pyc
+Backend/.env.*
+!Backend/.env.example
 
 # IDEs and OS files
 .vscode/
 .idea/
 .DS_Store
+Thumbs.db
+
+
+**/__pycache__/
+*.py[cod]
+
